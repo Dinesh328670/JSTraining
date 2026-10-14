@@ -147,21 +147,3 @@ console.log(typeof ORDER);
 
 
 
-
-for(let i=1;i<=20;i++)
-{
-if(i%2===1){
-    console.log(i);
-    
-}
-}
- 
-let ab="hello"
-//let i=0;
-let result;
-console.log(i.length);
-for(let i=0;i<=ab.length;i++)
-{
-    result=ab[i];
-}
-
