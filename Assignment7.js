@@ -141,6 +141,71 @@ let ORDER=String(orderId);
 console.log(ORDER);
 console.log(typeof ORDER);
 
+console.log("********Problem9************");
+/*
+Problem 9 — Boolean API Value
+An API returns:
+let status = "true";
+Convert this value into an actual Boolean.
+*/
+let status1 = "true";
+let finalStatus=Boolean(status1)
+console.log(finalStatus);
+console.log(typeof finalStatus);
+console.log(typeof status1);
+
+console.log("********Problem10************");
+/*
+Problem 10 — Input Field Value
+A Playwright test retrieves a quantity from an input field:
+let quantity = "5";
+The expected quantity is:
+let expectedQuantity = 5;
+*/
+let quantity1 = "5";
+let expectedQuantity = 5;
+console.log(quantity1==expectedQuantity)
+finalQuantity= Number(quantity1);
+console.log(finalQuantity===expectedQuantity)
+console.log(typeof finalQuantity);
+
+console.log("********Problem11************");
+/*
+Problem 11 — Calculate Cart Total
+An e-commerce application provides:
+let price = "799";
+let quantity = "2";
+let discount = "100";
+Calculate:
+(price × quantity) - discount
+
+Expected Output:
+1498
+*/
+let price2 = "799";
+let quantity2 = "2";
+let discount = "100";
+//Calculate:
+let cartTotal=(price2 * quantity2) - discount;
+console.log(cartTotal);
+
+//why because JS automaticatically convert string number to number for arthematic operation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
