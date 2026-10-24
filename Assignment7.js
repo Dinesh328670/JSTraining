@@ -12,12 +12,12 @@ Expected Output:
 1500
 */
 console.log("********Problem1************");
-let price="500";
-let quantity="3";
+let price = "500";
+let quantity = "3";
 //Calculate Total price and expect result 1500, 
 //but both value in string so we using Type conversion =>Number conversion
-let total=price*quantity
-console.log("Total price is",total);
+let total = price * quantity
+console.log("Total price is", total);
 
 //why because both value in string type but we using * operator and js default convert String("5") into number type 
 //this auto type convertion not using for "+" operator
@@ -39,12 +39,12 @@ let tax = "200";
 This time we using "+" operator so auto type/number conversion not possible ,
 so we first convert string to number using explicit conversion
 */
-let finalprice=Number(price1);
-let finaltax=Number(tax)
-let total1=finalprice+finaltax
+let finalprice = Number(price1);
+let finaltax = Number(tax)
+let total1 = finalprice + finaltax
 
 console.log(total1);
-console.log(typeof finalprice ,"",typeof finaltax);
+console.log(typeof finalprice, "", typeof finaltax);
 
 console.log("********Problem3************");
 /*
@@ -108,7 +108,7 @@ true
 */
 let actualPrice1 = "500";
 let expectedPrice1 = 500;
-let finalPrice=Number(actualPrice1);
+let finalPrice = Number(actualPrice1);
 
 console.log(finalPrice === expectedPrice1);//true
 
@@ -123,7 +123,7 @@ Its data type
 
 */
 let timeout = "30000";
-let finalTimeout=Number(timeout);
+let finalTimeout = Number(timeout);
 console.log(finalTimeout);//30000
 console.log(typeof finalTimeout);//number
 
@@ -137,7 +137,7 @@ ORDER-12345
 
 */
 let orderId = 12345;
-let ORDER=String(orderId);
+let ORDER = String(orderId);
 console.log(ORDER);
 console.log(typeof ORDER);
 
@@ -149,7 +149,7 @@ let status = "true";
 Convert this value into an actual Boolean.
 */
 let status1 = "true";
-let finalStatus=Boolean(status1)
+let finalStatus = Boolean(status1)
 console.log(finalStatus);
 console.log(typeof finalStatus);
 console.log(typeof status1);
@@ -164,9 +164,9 @@ let expectedQuantity = 5;
 */
 let quantity1 = "5";
 let expectedQuantity = 5;
-console.log(quantity1==expectedQuantity)
-finalQuantity= Number(quantity1);
-console.log(finalQuantity===expectedQuantity)
+console.log(quantity1 == expectedQuantity)
+finalQuantity = Number(quantity1);
+console.log(finalQuantity === expectedQuantity)
 console.log(typeof finalQuantity);
 
 console.log("********Problem11************");
@@ -186,7 +186,7 @@ let price2 = "799";
 let quantity2 = "2";
 let discount = "100";
 //Calculate:
-let cartTotal=(price2 * quantity2) - discount;
+let cartTotal = (price2 * quantity2) - discount;
 console.log(cartTotal);
 
 //why because JS automaticatically convert string number to number for arthematic operation
