@@ -438,3 +438,268 @@ Declare an array with "LoginFail", "CheckoutFail", "SearchFail" and:
 4. Extract only the first 2 failed tests  
 5. Replace "CheckoutFail" with "PaymentFail"  
 6. Convert all failures into a single comma-separated string
+
+String Assignments
+=======================
+Assignment1: 
+Problem: 
+Count the number of words in a sentence. 
+Input: “I am learning javascript” 
+Output: 4 
+
+Assignment2: 
+Problem: 
+Remove duplicate characters from a string. 
+Input: “Programming” 
+Output:Progamin 
+
+Assignment3: 
+Problem: 
+Capitalize the first letter of a string. 
+Input: “javascript” 
+Output: “Javascript” 
+
+Assignment4: 
+Problem: 
+Remove all spaces from a string. 
+Input: “Welcome to learn playwright” 
+Output:”Welcometolearnplaywright” 
+
+Assignment5: 
+Problem: 
+Find the number of characters in a string with and without using length. 
+
+Assignment6: 
+Problem: 
+Count the number of vowels in a string. 
+Input:”Javascript” 
+Output: 3
+
+Assignment7: 
+Problem: 
+Reverse a string with & without using the built-in reverse() method.
+Hint: Through array you can apply reverse()
+==============================================================
+Assignments on Object
+============================
+Program 1. Student Object 
+Create a student object with the following properties: 
+• id  
+• name  
+• age  
+• course  
+• marks  
+Perform the following: 
+1. Print the complete object.  
+2. Print the student's name.  
+3. Print the student's marks.  
+4. Change the student's course.  
+5. Update the student's marks.  
+6. Add a new property city.  
+7. Delete the age property.  
+
+Program 2. Employee Object 
+Create an employee object containing: 
+id 
+name 
+department 
+designation 
+salary 
+Perform: 
+1. Access each property using dot notation.  
+2. Access each property using bracket notation.  
+3. Update the salary.  
+4. Add a location property.  
+5. Delete the designation property. 
+
+program 3.Create a testData object containing: 
+username 
+password 
+browser 
+environment 
+timeout 
+Use Object.keys() to: 
+1. Get all property names.  
+2. Count the number of properties.  
+3. Check whether username exists. 
+
+Program 4.Create an object containing test configuration: 
+browser: "chromium" 
+headless: true 
+timeout: 30000 
+retries: 2 
+Use Object.values() to: 
+1. Display all values.  
+2. Check whether "chromium" exists.  
+3. Count the number of configuration values. 
+
+Program 5.Create a user object: 
+username 
+role 
+department 
+experience 
+Use Object.entries() to print: 
+username : standard_user 
+role : tester 
+department : QA 
+experience : 5 
+
+Program 6.Create: 
+const user = { 
+name: "John", 
+role: "Tester", 
+city: "Pune" 
+}; 
+Create a new object that: 
+• Contains all properties of user.  
+• Changes role to "Automation Engineer".  
+• Adds experience: 5.  
+The original object should remain unchanged. 
+
+Program 7.Playwright Configuration Object 
+Create a configuration object: 
+browser 
+baseURL 
+headless 
+timeout 
+retries 
+Example: 
+{ 
+} 
+browser: "chromium", 
+baseURL: "https://example.com", 
+headless: true, 
+timeout: 30000, 
+retries: 2 
+Perform: 
+1. Print all configuration values.  
+2. Change the browser.  
+3. Change the timeout.  
+4. Add screenshot: "only-on-failure".  
+5. Check whether retries exists.  
+6. Create a copy with a different baseURL.  
+
+=============================================================
+Assignments On Class
+======================
+JavaScript Class Problem Statements 
+Program 1: Create a Student Class 
+Problem Statement: 
+Create a Student class with properties name, age, and course. Create 
+two objects and display their details. 
+
+Program 2: Bank Account Class 
+Problem Statement: 
+Create a BankAccount class with the following: 
+• accountHolder  
+• balance  
+• deposit()  
+• withdraw()  
+• checkBalance() 
+
+Program 3: Employee Class 
+Problem Statement: 
+Create an Employee class with name, salary, and 
+department. Create a method that calculates a 10% bonus and 
+displays the total salary. 
+============================================
+Assignments On function 
+1. Calculate Test Score 
+Create a function calculateScore() that accepts three marks 
+and returns the total score. 
+Requirements: 
+• Accept three numbers as parameters.  
+• Calculate the total.  
+• Return the result.  
+• Call the function and print the result. 
+
+2. Check Test Status 
+Create a function checkTestStatus() that accepts a test score. 
+Rules: 
+• Score >= 40 → "PASS"  
+• Score < 40 → "FAIL" 
+
+3. Validate Username 
+Create a function validateUsername(username). 
+Rules: 
+• Username must not be empty.  
+• Username must contain at least 5 characters.  
+• Return true if valid.  
+• Return false otherwise. 
+
+4. Validate Login Credentials 
+Problem Statement: 
+Create a JavaScript function validateLogin() that accepts a 
+username and password. The function should validate the 
+credentials and return whether the login is successful or 
+unsuccessful. 
+Requirements: 
+• Accept username and password as parameters.  
+• Consider "admin" as the valid username.  
+• Consider "admin123" as the valid password.  
+• Return "Login Successful" when both are correct.  
+• Otherwise, return "Invalid Username or Password". 
+
+5. Validate Password 
+Problem Statement: 
+Create a function validatePassword() that accepts a 
+password and validates it based on the following 
+conditions: 
+• Password must contain at least 8 characters.  
+• Password must not be empty.  
+• Password must contain at least one number.  
+The function should return true if the password is valid; 
+otherwise, return false. 
+
+6. Browser Test Using Callback 
+Problem Statement: 
+Create a function runBrowserTest() that accepts a browser 
+name and a callback function. 
+The function should simulate executing a test on the 
+specified browser and pass the browser name and test 
+result to the callback. 
+Requirements: 
+• Accept browser and callback.  
+• Execute the test for the specified browser.  
+• Pass the browser name and test result to the callback.  
+• Display the result. 
+
+7. Display Browser Names Using forEach() 
+Problem Statement: 
+Create an array containing the following browser names: 
+Chromium 
+Firefox 
+WebKit 
+Use the forEach() method to display: 
+Executing test on Chromium 
+Executing test on Firefox 
+Executing test on WebKit 
+Requirements: 
+• Use forEach().  
+• Pass a callback function to forEach().  
+• Do not use a traditional for loop. 
+
+8. Calculate Final Prices Using map() 
+Problem Statement: 
+Create an array containing product prices: 
+1000, 2000, 3000, 4000 
+Use the map() method with a callback function to calculate 
+the price after adding 18% GST. 
+The function should return a new array containing the 
+updated prices. 
+Expected Output: 
+[1180, 2360, 3540, 4720] 
+9. Filter Failed Test Cases 
+Problem Statement: 
+Create an array of test case objects containing the test 
+name and test status. 
+Example: 
+[  
+{ name: "Login Test", status: "PASS" }, 
+{ name: "Search Test", status: "FAIL" }, 
+{ name: "Checkout Test", status: "PASS" }, 
+{ name: "Payment Test", status: "FAIL" } 
+] 
+Use the filter() method with a callback function to return 
+only the failed test cases.
+
